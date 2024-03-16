@@ -19,7 +19,9 @@ body {
   text-decoration: none;
   font-size: 17px;
 }
-
+.topnav-right a{
+  font-family: coustard;
+}
 .topnav-right a:hover{
   color: #F16968;
   height: 60px;
@@ -37,10 +39,9 @@ body {
 }
 
 .home .home-video{
-    height: 100vh;
+  height: 100vh;
 	width: 100%;
 	position: relative;
-	/* background: url(../img/bg1.jpg); */
 	background-size: cover;
 	background-position: center;
 	display: flex;
@@ -51,6 +52,8 @@ body {
 
 .home .home-text{
     position: absolute;
+    font-family: handlee;
+    font-size: large;
     top: 21.5%;
     left: 6.5%;
     text-align: left;
@@ -59,11 +62,120 @@ body {
 }
 
 .home .resume-button{
+    height: 50px;
     background-color: bisque;
+    border: #411a1a 5px solid;
     border-radius: 10px;
     font-size: large;
 }
 
+.home .resume-button {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #411c72 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.home .resume-button:focus {
+  box-shadow: #6710b2 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.home .resume-button:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.home .resume-button:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
 .home .resume-button:hover{
     background-color: aquamarine;
+}
+
+.main-text {
+    
+    left: 6.5%;
+    text-align: center;
+    z-index: 1;
+    color: #DBDEE4;
+}
+
+.box{
+	height: 500px;
+	background: #12141c;
+	border-top: 5px solid transparent;
+	border-radius: 0.5rem;
+	transition: all .40s ease;
+	cursor: pointer;
+}
+
+.box img{
+  height: 100px;
+}
+
+.box h3{
+	font-size: 24px;
+	font-weight: 600;
+	margin: 15px 0;
+	transition: all .40s ease;
+  color: antiquewhite;
+}
+.box h4{
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: lighter;
+  color: aliceblue;
+  margin: 15px 0;
+  padding: 5px;
+
+}
+
+.box .uni{
+  float: left;
+  color: #f2f2f2;
+  right: 25%;
+  text-align: center;
+  padding: 5px 17px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.box .hschool{
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  padding: 50px;
+  font-size: 17px;
+}
+
+.handlee-regular {
+  font-family: "Handlee", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
