@@ -3,11 +3,12 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="css/styles.css">
+<script src="js/script.js"></script>
 </head>
 
 <body>
 <header>
-    <div class="topnav">
+    <div class="topnav" id="myTopnav">
     <a href="index.html">
         <img src="images/home-icon.jpeg" alt="home-icon" class="home-icon">
     </a>
@@ -16,6 +17,9 @@
         <a href="#Resume">Resume</a>
         <a href="#Project">Project</a>
         <a href="#Experience">Experience</a>
+        <a href="javascript:void(0);" class="icon" onclick="collapse()">
+        <i class="fa fa-bars"></i>
+        </a>
     </div>
     </div>
 </header>
