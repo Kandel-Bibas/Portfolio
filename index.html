@@ -4,23 +4,21 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="css/styles.css">
 
-</head>
 <body>
 <header>
     <div class="topnav">
-    <a href="#home">
+    <a href="index.html">
         <img src="images/home-icon.jpeg" alt="home-icon" class="home-icon">
     </a>
     <div class="topnav-right">
-        <a href="#search">Education</a>
-        <a href="#about">Resume</a>
-        <a href="#">Project</a>
-        <a href="#">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#Resume">Resume</a>
+        <a href="#Project">Project</a>
+        <a href="#Experience">Experience</a>
     </div>
     </div>
 </header>
-    <section id="home">
-        <div class="home">
+    <section class="home">
             <div class="home-video">
                 <video autoplay muted loop>
                     <source src="videos/home-video.mp4">
@@ -30,7 +28,42 @@
                 <h4>Hello</h4>
                 <h1>I'm Bibas <br> <span>Kandel</span></h1>
                 <h3>Software Developer and Programming Enthusiast </h3>
-                <a href="documents/resume.pdf" target="_blank"><button class="resume-button"> Get Resume</button></a>
+                <a href="documents/resume.pdf" target="_blank"><button class="resume-button" draggable="false"> Get Resume</button></a>
+            </div>
+    </section>
+
+    <section class="education" id="education">
+        <div class="education-content">
+            <div class="box">
+                <div class="main-text">
+                    <h2>Education</h2>
+                </div>
+                <div class="uni">
+                    <a href="https://www.usm.edu/">
+                        <img src="images/uni-image.png" draggable="false">
+                    </a>
+                    <h3> Computer and Information Sciences</h3>
+                    <h4>
+                        <span>
+                            The University of Southern Mississippi <br>
+                            Aug 2023 - May 2027 <br>
+                            GPA: 4.00/4.00
+                        </span>
+                    </h4>
+                </div>
+                <div class="hschool">
+                    <a href="https://www.facebook.com/bnksofficial/">
+                        <img src="images/bnks.jpeg" draggable="false">
+                    </a>
+                    <h3> Cambridge A-levels</h3>
+                    <h4>
+                        <span>
+                            Budhanlikantha School <br>
+                            June 2019 - Aug 2021 <br>
+                            Grades: A A A a
+                        </span>
+                    </h4>
+                </div>
             </div>
         </div>
     </section>
