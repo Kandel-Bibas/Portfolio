@@ -1,72 +1,329 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="css/styles.css">
-</head>
+<html lang="en">
+  <head>
+    <!-- Metadata of the Webpage -->
+    <!-- Character-set Metadata -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Viewport Metadata -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Description Metadata-->
+    <meta name="description" content="Portfolio Website" />
+    <!-- Author Metadata -->
+    <meta name="author" content="Bibas Kandel" />
+    <!-- Keyword Metadata -->
+    <meta
+      name="keywords"
+      content="Bibas Kandel, Bibas Kandel USM,
+        Bibas Kandel USM, Bibas Kandel USM, Bibas Kandel
+        UMass Amherst, Bibas Kandel Hattiesburg, Bibas Kandel USM,
+        Bibas Kandel, Bibas Kandel,
+        Bibas Kandel, Bibas Kandel Website, Bibas Kandel"
+    />
+    <!-- Webpage Logo -->
+    <link rel="shortcut icon" href="./assets/img/webp/favicon.ico" />
+    <!-- Webpage Title -->
+    <title>Bibas Kandel</title>
 
-<body>
-<header>
-    <div class="topnav">
-    <a href="index.html">
-        <img src="images/home-icon.jpeg" alt="home-icon" class="home-icon">
-    </a>
-    <div class="topnav-right">
-        <a href="#education">Education</a>
-        <a href="#Resume">Resume</a>
-        <a href="#Project">Project</a>
-        <a href="#Experience">Experience</a>
-    </div>
-    </div>
-</header>
-    <section class="home">
-            <div class="home-video">
-                <video autoplay muted loop>
-                    <source src="videos/home-video.mp4">
-                </video>
-            </div>
-            <div class="home-text">
-                <h4>Hello</h4>
-                <h1>I'm Bibas <br> <span>Kandel</span></h1>
-                <h3>Software Developer and Programming Enthusiast </h3>
-                <a href="documents/Bibas Kandel - Resume.pdf" target="_blank"><button class="resume-button" draggable="false"> Get Resume</button></a>
-            </div>
-    </section>
+    <!-- Import CSS: Main Stylesheet -->
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
 
-    <section class="education" id="education">
-        <div class="education-content">
-            <div class="box">
-                <div class="main-text">
-                    <h2>Education</h2>
-                </div>
-                <div class="uni">
-                    <a href="https://www.usm.edu/">
-                        <img src="images/uni-image.png" draggable="false">
-                    </a>
-                    <h3> Computer and Information Sciences</h3>
-                    <h4>
-                        <span>
-                            The University of Southern Mississippi <br>
-                            Aug 2023 - May 2027 <br>
-                            GPA: 4.00/4.00
-                        </span>
-                    </h4>
-                </div>
-                <div class="hschool">
-                    <a href="https://www.facebook.com/bnksofficial/">
-                        <img src="images/bnks.jpeg" draggable="false">
-                    </a>
-                    <h3> Cambridge A-levels</h3>
-                    <h4>
-                        <span>
-                            Budhanlikantha School <br>
-                            June 2019 - Aug 2021 <br>
-                            Grades: A A A a
-                        </span>
-                    </h4>
-                </div>
-            </div>
+  <body>
+    <div id="particles-js">
+      <div class="header">
+        <h1>
+          <span class="site-title">BIBAS KANDEL</span>
+          <span class="site-description">Programmer • Web Developer • ML Enthusiast</span>
+        </h1>
+        <div class="header-icons">
+          <a aria-label="My LinkedIn Profile" target="_blank" href="https://www.linkedin.com/in/bibas-kandel/">
+            <i class="icon fa fa-linkedin" aria-hidden="true"></i>
+          </a>
+          <a aria-label="My Github Profile" target="_blank" href="https://github.com/kandel-Bibas">
+            <i class="icon fa fa-github-alt" aria-hidden="true"></i>
+          </a>
+          <a aria-label="My Résumé" target="_blank" href="documents/Bibas Kandel - Resume.pdf">
+            <i class="icon fa fa fa-file-pdf-o" aria-hidden="true"></i>
+          </a>
+          <a aria-label="Send Email" href="mailto:bibas.kandel@usm.edu" target="_blank"
+            ><i class="icon fa fa-envelope"></i
+          ></a>
         </div>
+        <div class="header-links">
+          <a class="link" href="#about" data-scroll>About Me</a>
+          <a class="link" href="#education" data-scroll>Education</a>
+          <a class="link" href="#projects" data-scroll>Projects</a>
+        </div>
+      </div>
+      <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
+    </div>
+
+    <!-- About Section -->
+    <section id="about">
+      <!-- User Introduction-->
+      <div class="user-details">
+        <h1>My Story</h1>
+        <picture>
+          <source
+            type="image/webp"
+            srcset="./assets/img/webp/My project-1.webp"
+            alt="Professional Me"
+            width="20%"
+            style="border-radius: 10%"
+          />
+          <img
+            src="./assets/img/webp/My project-1.webp"
+            alt="Professional Me"
+            width="20%"
+            style="border-radius: 50%"
+          />
+        </picture>
+        <p>
+          I am a sophomore at the University of Southern Mississippi, pursuing a BS in Computer and
+           Information Sciences. With experience as an Academic Tutor in Discrete Mathematics, C++,
+            and Python, I help students achieve academic success. I am a Core Member of the Google
+             Developer Student Club, actively contributing to projects like a JavaScript-based task
+              scheduler. My projects include Exium, a secure coding exam platform; Manimator, a tool
+               for generating mathematical animations using OpenAI; and CheckED, an event management
+                app. Proficient in Python, C++, React, and cloud technologies, I aim to explore opportunities
+                 in Software Engineering, Data Science, and Machine Learning.
+        </p>
+      </div>
+
+      <!-- User Specifics -->
+      <div class="user">
+        <!-- Technology Stack #1: Languages -->
+        <div class="tech">
+          <h2>Languages</h2>
+          <i class="devicon-python-plain colored"></i>
+          <!-- <i class="devicon-java-plain-wordmark colored"></i> -->
+           <i class="devicon-csharp-plain colored"></i>
+           <i class="devicon-cplusplus-plain colored"></i>
+          <i class="devicon-javascript-plain colored"></i>
+          <p>My favorite languages for systems programming, software engineering, and data analysis.</p>
+        </div>
+
+        <!-- Technology Stack #2: Front-End -->
+        <div class="tech">
+          <h2>Front-End</h2>
+          <i class="devicon-react-original colored"></i>
+          <!-- <i class="devicon--plain-wordmark colored"></i> -->
+          <i class="devicon-html5-plain-wordmark colored"></i>
+          <i class="devicon-css3-plain-wordmark colored"></i>
+          <p>My preferred technologies for front-end web development and component design.</p>
+        </div>
+
+        <!-- Technology Stack #3: Back-End -->
+        <div class="tech">
+          <h2>Back-End</h2>
+          <i class="devicon-nodejs-plain colored"></i>
+          <!-- <i class="devicon-express-original-wordmark colored"></i> -->
+          <i class="devicon-mongodb-plain-wordmark colored"></i>
+          <i class="devicon-postgresql-plain-wordmark colored"></i>
+          <p>My preferred technologies for back-end web programming and database architecture.</p>
+        </div>
+
+        <!-- Technology Stack #4: Tools -->
+        <div class="tech">
+          <h2>Tools</h2>
+          <i class="devicon-git-plain-wordmark colored"></i>
+          <i class="devicon-visualstudio-plain colored"></i>
+          <i class="devicon-github-plain-wordmark colored"></i>
+          <i class="devicon-docker-plain-wordmark colored"></i>
+          <p>My favorite tools for version control, code editing, and container orchestration.</p>
+        </div>
+      </div>
     </section>
-</body>
+
+    <!-- Education Section -->
+    <section id="education">
+      <div class="user-details">
+        <h1>Education</h1>
+      </div>
+      
+      <div class="user">
+        <!-- Education #1 -->
+        <div class="tech">
+          <h2>University of Southern Mississippi</h2>
+          <i class="fa fa-graduation-cap"></i>
+          <p>BS in Computer and Information Sciences</p>
+          <p>Expected Graduation: 2027</p>
+          <p>GPA: 4.0/4.0</p>
+        </div>
+
+        <!-- Relevant Coursework -->
+        <div class="tech">
+          <h2>Key Coursework</h2>
+          <i class="fa fa-book"></i>
+          <p>Data Structures & Algorithms</p>
+          <p>Object-Oriented Programming</p>
+        </div>
+
+        <!-- Academic Achievements -->
+        <div class="tech">
+          <h2>Achievements</h2>
+          <i class="fa fa-trophy"></i>
+          <p>President's List (All Semesters)</p>
+          <p>Academic Excellence Scholarship</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="user-details">
+        <h1>Featured Projects</h1>
+      </div>
+
+      <!-- User Project #1: Exium -->
+      <div class="user-projects">
+        <div class="images-right">
+          <picture>
+            <source type="image/webp" srcset="./assets/img/webp/Exium.webp" alt="Exium" />
+            <img alt="Exium" src="./assets/img/webp/Exium.webp" />
+          </picture>
+        </div>
+        <div class="contents" style="text-align: center">
+          <h3>Exium</h3>
+          <div>
+            <img
+              height="32"
+              width="32"
+              src="https://unpkg.com/simple-icons@3.4.0/icons/react.svg"
+              style="filter: invert(73%) sepia(74%) saturate(1552%) hue-rotate(169deg) brightness(109%) contrast(97%)"
+            />
+            &nbsp;
+            <img
+              height="32"
+              width="32"
+              src="https://unpkg.com/simple-icons@3.4.0/icons/tailwindcss.svg"
+              style="filter: invert(24%) sepia(14%) saturate(2270%) hue-rotate(222deg) brightness(102%) contrast(90%)"
+            />
+            &nbsp;
+            <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/github.svg" />
+          </div>
+          <p style="text-align: justify">
+            I built Exium, a secure coding exam platform with ReactJS and TailwindCSS featuring lockdown mode, activity monitoring, 
+            and Monaco Editor. Includes offline sync and automated grading through Judge0 API on AWS EC2.
+          </p>
+          <a class="project-link" target="_blank" href="https://github.com/Gunjansah/Exium">Check it out!</a>
+        </div>
+      </div>
+
+      <!-- User Project #2: Manimator -->
+      <div class="user-projects">
+        <div class="images-left">
+          <picture>
+            <source type="image/webp" srcset="./assets/img/webp/manimator.webp" alt="Manimator" />
+            <img alt="Manimator" src="./assets/img/webp/manimator.webp" />
+          </picture>
+        </div>
+        <div class="contents-right" style="text-align: center">
+          <h3>Manimator</h3>
+          <img
+            height="32"
+            width="32"
+            src="https://unpkg.com/simple-icons@3.4.0/icons/react.svg"
+            style="filter: invert(73%) sepia(74%) saturate(1552%) hue-rotate(169deg) brightness(109%) contrast(97%)"
+          />
+          &nbsp;
+          <img
+            height="32"
+            width="32"
+            src="https://unpkg.com/simple-icons@3.4.0/icons/flask.svg"
+            style="filter: invert(33%) sepia(29%) saturate(3844%) hue-rotate(184deg) brightness(90%) contrast(84%)"
+          />
+          &nbsp;
+          <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/github.svg" />
+          <p style="text-align: justify">
+            I developed Manimator, a web application that enables users to create mathematical animations programmatically using Manim.
+            Built with Flask and ReactJS, it features an intuitive interface that leverages the OpenAI API to generate Manim code based
+            on user input and renders animations in real-time. The platform streamlines the animation creation process while maintaining
+            Manim's powerful capabilities.
+          </p>
+          <a class="project-link" target="_blank" href="https://github.com/Kandel-Bibas/Manimator"
+            >Check it out!</a
+          >
+        </div>
+      </div>
+
+      <!-- User Project #3: Checked -->
+      <div class="user-projects">
+        <div class="images-right">
+          <picture>
+            <source type="image/webp" srcset="./assets/img/webp/check.webp" alt="Checked" />
+            <img alt="Checked" src="./assets/img/webp/check.webp" />
+          </picture>
+        </div>
+        <div class="contents" style="text-align: center">
+          <h3>CheckED</h3>
+          <div>
+            <img
+              height="32"
+              width="32"
+              src="https://unpkg.com/simple-icons@3.4.0/icons/csharp.svg"
+              style="filter: invert(96%) sepia(47%) saturate(4151%) hue-rotate(338deg) brightness(100%) contrast(95%)"
+            />
+          </div>
+          
+          <p style="text-align: justify">
+            CheckED is a cross-platform mobile event planning application developed using .NET MAUI (Multi-platform App UI).
+            The app streamlines event organization by providing an intuitive interface for both event organizers and general users.
+            Event organizers can create and manage events, while general users can easily discover and access event information through
+            the application's user-friendly interface.
+          </p>
+          <a class="project-link" target="_blank" href="https://github.com/Gunjansah/CheckED">
+            Check it out!
+          </a>
+        </div>
+      </div>
+
+      <!-- Use Project #4: Valuto: Sudoku -->
+      <div class="user-projects">
+        <div class="images-left">
+          <picture>
+            <source
+              type="image/webp"
+              srcset="./assets/img/webp/Sudoku.webp"
+              alt="Valuto: Account Management System"
+            />
+            <img alt="Valuto: Account Management System" src="./assets/img/webp/Sudoku.webp" />
+          </picture>
+        </div>
+        <div class="contents-right" style="text-align: center">
+          <h3>Sudoku</h3>
+          <div>
+            <img
+              height="32"
+              width="32"
+              src="https://unpkg.com/simple-icons@3.4.0/icons/cplusplus.svg"
+              style="filter: invert(22%) sepia(77%) saturate(1486%) hue-rotate(183deg) brightness(101%) contrast(103%)"
+            />
+          </div>
+          <p style="text-align: justify">
+            A modern Sudoku puzzle solver application featuring a sleek dark-themed graphical user interface built using Qt6 and C++17. 
+            The solver implements an efficient Ternary Search Tree algorithm to quickly solve Sudoku puzzles of varying difficulty levels.
+            The application provides an intuitive interface for users to input puzzles and visualize the solving process in real-time.
+          </p>
+          <a class="project-link" target="_blank" href="https://github.com/Kandel-Bibas/Suduko">
+            Check it out!
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>&copy; Bibas Kandel, 2025</p>
+    </footer>
+
+    <!-- Import JS: Particles Theme -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- Import JS: Sweet Scroll -->
+    <script src="./assets/js/sweet-scroll.min.js"></script>
+    <!-- Import JS: Google Analytics -->
+    <script src="./assets/js/google-analytics.js"></script>
+    <!-- Import JS: Main Script -->
+    <script src="./assets/js/main.js"></script>
+  </body>
 </html>
